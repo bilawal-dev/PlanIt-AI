@@ -86,7 +86,7 @@ export default function Home() {
                 <div className="aspect-square rounded-lg border bg-card/50 backdrop-blur-sm p-8 overflow-hidden">
                   <div className="absolute inset-0 -z-10 bg-gradient-to-br from-purple-500/20 to-purple-700/20 blur-xl" />
                   <Image
-                    src="/HomeImage1.JPEG"
+                    src="/HomeImage1.jpeg"
                     alt="AI Visualization"
                     fill
                     className="object-cover rounded-lg"
@@ -154,7 +154,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="aspect-video rounded-lg border bg-card/50 backdrop-blur-sm p-4 overflow-hidden">
                     <Image
-                      src="/HomeImage2.AVIF"
+                      src="/HomeImage2.avif"
                       alt="Workflow Visualization"
                       fill
                       className="object-cover rounded-lg"
