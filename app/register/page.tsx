@@ -17,7 +17,6 @@ export default function RegisterPage() {
     email: "",
     password: "",
     company: "",
-    terms: false,
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -41,7 +40,6 @@ export default function RegisterPage() {
         email: "",
         password: "",
         company: "",
-        terms: false,
       });
     }, 1500)
     setTimeout(() => {
@@ -134,26 +132,6 @@ export default function RegisterPage() {
                   placeholder="Your company name"
                   className="mt-1"
                 />
-              </div>
-              <div className="flex items-center">
-                <input
-                  id="terms"
-                  type="checkbox"
-                  checked={formData.terms}
-                  onChange={handleChange}
-                  className="h-4 w-4 rounded border-gray-300 text-purple-600 focus:ring-purple-500"
-                  required
-                />
-                <label htmlFor="terms" className="ml-2 block text-sm text-muted-foreground">
-                  I agree to the{" "}
-                  <span className="font-medium text-purple-500 hover:text-purple-400">
-                    Terms of Service
-                  </span>{" "}
-                  and{" "}
-                  <span className="font-medium text-purple-500 hover:text-purple-400">
-                    Privacy Policy
-                  </span>
-                </label>
               </div>
               <Button
                 type="submit"
